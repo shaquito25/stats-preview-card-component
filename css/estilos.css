@@ -1,0 +1,67 @@
+
+body{
+    background-color: hsl(233, 47%, 7%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+
+}
+
+.padding-edit{
+        padding: 0px;  
+}
+
+.img-fluid{
+
+    width: 100%;
+    height: 100%;
+    
+}
+
+img{
+    filter: invert(0.1) sepia(1) hue-rotate(240deg) saturate(390%) brightness(80%);
+}
+
+.bg-container{
+    background-color: hsl(244, 38%, 16%);
+    
+}
+
+.h5{
+    font-size: 14px;
+}
+
+.text-font{
+    font-size: 12px;
+}
+
+span{
+    color: hsl(277, 64%, 61%);
+}
+
+.justify-content-between{
+
+    margin-left: -25px;
+}
+
+@media(max-width:375px){
+    
+    .alto-100{
+        text-align: center;
+        height: 100vh;
+    }
+
+    .flex{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .flex-2{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin-left: 5px;
+    }
+
+}
+
+
